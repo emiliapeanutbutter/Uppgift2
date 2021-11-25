@@ -1,0 +1,75 @@
+body {
+    background-color:lightgray;
+}
+
+p {font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: center;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgrey;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    padding: 12px 12px 13px 12px;
+    color:black;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color:lightgray;
+    color:black;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+  }
+
+  #logoimage {
+      margin-bottom: 10px;
+
+
+  }
+
+  .navText {
+    margin-right: 130px;
+    text-align: center;
+  }
+
+  .flex-container {
+    display: flex;
+}
+
+.flex-child {
+    flex: 1;
+}  
+
+.flex-child {
+    flex: 1;   
+}  
+
+.flex-child:first-child {  
+    padding-left: 20px;
+    margin-right: 20px;
+} 
